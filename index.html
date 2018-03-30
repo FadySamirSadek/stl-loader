@@ -19,9 +19,9 @@
     </head>
     <body>
        <h1 class='logo'>The maker X</h1>
-        <script src="three.js"></script>
-        <script src="stats.js"></script>
-        <script src="detector.js"></script>
+        <script src="./three.js"></script>
+        <script src="./stats.js"></script>
+        <script src="./detector.js"></script>
         <script>
 
             var camera, scene, renderer,
@@ -255,7 +255,7 @@
                     console.log(e);
                 }
 
-                xhr.open( "GET", 'Part1.STL', true );
+                xhr.open( "GET", './Part1.STL', true );
                 xhr.responseType = "arraybuffer";
                 //xhr.setRequestHeader("Accept","text/plain");
                 //xhr.setRequestHeader("Content-Type","text/plain");
